@@ -267,20 +267,6 @@ const tools = {
   ],
 };
 
-// Education Page
-const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/tasin95",
-    },
-  ],
-};
-
 const degrees = {
   degrees: [
     {
@@ -300,160 +286,159 @@ const degrees = {
 
 const certifications = {
   certifications: [
-    {
-      title: "TENCON 2021",
-      subtitle: "- Nirmal Nair",
-      logo_path: "tencon.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1wLzB3oGkyI4svn09Yor2sAeSF3DbPzeU/view?usp=sharing",
-      alt_name: "New Zealand",
-      color_code: "white",
-    },
-    {
-      title: "Python Data Structures",
-      subtitle: "- Charles Russell Severance",
-      logo_path: "michigan_logo.png",
-      certificate_link:
-        "https://coursera.org/share/259bcebba35c1ba43934608a5fab9907",
-      alt_name: "Michigan University",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Python Basics",
-      subtitle: "- Charles Russell Severance",
-      logo_path: "michigan_logo.png",
-      certificate_link:
-        "https://coursera.org/share/39d3749b06308a77e0f596129029d4fe",
-      alt_name: "Michigan University",
-      color_code: "#2A73CC",
-    },
-
-    {
-      title: "React: The Big Picture",
-      subtitle: "- Cory House",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1qcJipEjDB3YanZor4xHpU_9BC73FuCud/view?usp=sharing",
-      alt_name: "Pluralsight",
-      color_code: "#000000",
-    },
-    {
-      title: "React: Getting Started",
-      subtitle: "- Samer Buna",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1LYzFiq0DDYYiDHowG4nbPjgmjCgd3QiV/view?usp=sharing",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Javascript: Getting Started",
-      subtitle: "- Mark Zamoyta",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12qhxMM2DGp4YVdG9wcpFDNX7r1bjqumx/view?usp=sharing",
-      alt_name: "Pluralsight",
-      color_code: "#000000",
-    },
-    {
-      title: "Designing React Components",
-      subtitle: "- Peter Kellner",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12f_pCjrOIkx0SMC0mqjnxpMwc9tesQoC/view?usp=sharing",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Managing React State",
-      subtitle: "- Cory House",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12f_pCjrOIkx0SMC0mqjnxpMwc9tesQoC/view?usp=sharing",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Building Applications with React and Redux",
-      subtitle: "- Cory House",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/15UMAKzJq1g1cIrz-sp1Ve0efg-M-hAq1/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Using React Hooks",
-      subtitle: "- Peter Kellner",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/15mPlLGrjpmkdlf3eyi7B_NLG8Wro5EEg/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Styling React Component",
-      subtitle: "- Jake Trent",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/14Wvag5M1sGzOlgWCC2PPDX4SsUkiqf72/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Testing React Components",
-      subtitle: "- Liam McLennan",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1654lPVh6R1zwSjgZjHV9gz7mgQ7wRmLm/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Server Rendering React Components",
-      subtitle: "- Daniel Stern",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/14YrLAmZlGNx2PayR0unlLjMoySL-eRG5/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Optimize Performance React",
-      subtitle: "- Hendrik Swanepoel",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/15kaZAf9642Kp_LBXYeqiVSzInaz-peAi/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Node.js The Big Picture",
-      subtitle: "- Paul O'Fallon",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/16jqLAZ4rWiUmITkGGxrZb68Eo5l77UPu/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Node.js Getting Started",
-      subtitle: "- Samer Buna",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/173qXhPtqI1zwSzcb487R3Ud_0j13LiDP/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Using MongoDB with Node.js",
-      subtitle: "- Samer Buna",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/16za14GrABr8xBM8r8hCtag1fO2faZTD8/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
+    // {
+    //   title: "TENCON 2021",
+    //   subtitle: "- Nirmal Nair",
+    //   logo_path: "tencon.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1wLzB3oGkyI4svn09Yor2sAeSF3DbPzeU/view?usp=sharing",
+    //   alt_name: "New Zealand",
+    //   color_code: "white",
+    // },
+    // {
+    //   title: "Python Data Structures",
+    //   subtitle: "- Charles Russell Severance",
+    //   logo_path: "michigan_logo.png",
+    //   certificate_link:
+    //     "https://coursera.org/share/259bcebba35c1ba43934608a5fab9907",
+    //   alt_name: "Michigan University",
+    //   color_code: "#2A73CC",
+    // },
+    // {
+    //   title: "Python Basics",
+    //   subtitle: "- Charles Russell Severance",
+    //   logo_path: "michigan_logo.png",
+    //   certificate_link:
+    //     "https://coursera.org/share/39d3749b06308a77e0f596129029d4fe",
+    //   alt_name: "Michigan University",
+    //   color_code: "#2A73CC",
+    // },
+    // {
+    //   title: "React: The Big Picture",
+    //   subtitle: "- Cory House",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1qcJipEjDB3YanZor4xHpU_9BC73FuCud/view?usp=sharing",
+    //   alt_name: "Pluralsight",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "React: Getting Started",
+    //   subtitle: "- Samer Buna",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1LYzFiq0DDYYiDHowG4nbPjgmjCgd3QiV/view?usp=sharing",
+    //   alt_name: "Pluralsight.",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Javascript: Getting Started",
+    //   subtitle: "- Mark Zamoyta",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/12qhxMM2DGp4YVdG9wcpFDNX7r1bjqumx/view?usp=sharing",
+    //   alt_name: "Pluralsight",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Designing React Components",
+    //   subtitle: "- Peter Kellner",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/12f_pCjrOIkx0SMC0mqjnxpMwc9tesQoC/view?usp=sharing",
+    //   alt_name: "Pluralsight.",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Managing React State",
+    //   subtitle: "- Cory House",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/12f_pCjrOIkx0SMC0mqjnxpMwc9tesQoC/view?usp=sharing",
+    //   alt_name: "Pluralsight.",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Building Applications with React and Redux",
+    //   subtitle: "- Cory House",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/15UMAKzJq1g1cIrz-sp1Ve0efg-M-hAq1/view",
+    //   alt_name: "Pluralsight.",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Using React Hooks",
+    //   subtitle: "- Peter Kellner",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/15mPlLGrjpmkdlf3eyi7B_NLG8Wro5EEg/view",
+    //   alt_name: "Pluralsight.",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Styling React Component",
+    //   subtitle: "- Jake Trent",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/14Wvag5M1sGzOlgWCC2PPDX4SsUkiqf72/view",
+    //   alt_name: "Pluralsight.",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Testing React Components",
+    //   subtitle: "- Liam McLennan",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1654lPVh6R1zwSjgZjHV9gz7mgQ7wRmLm/view",
+    //   alt_name: "Pluralsight.",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Server Rendering React Components",
+    //   subtitle: "- Daniel Stern",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/14YrLAmZlGNx2PayR0unlLjMoySL-eRG5/view",
+    //   alt_name: "Pluralsight.",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Optimize Performance React",
+    //   subtitle: "- Hendrik Swanepoel",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/15kaZAf9642Kp_LBXYeqiVSzInaz-peAi/view",
+    //   alt_name: "Pluralsight.",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Node.js The Big Picture",
+    //   subtitle: "- Paul O'Fallon",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/16jqLAZ4rWiUmITkGGxrZb68Eo5l77UPu/view",
+    //   alt_name: "Pluralsight.",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Node.js Getting Started",
+    //   subtitle: "- Samer Buna",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/173qXhPtqI1zwSzcb487R3Ud_0j13LiDP/view",
+    //   alt_name: "Pluralsight.",
+    //   color_code: "#000000",
+    // },
+    // {
+    //   title: "Using MongoDB with Node.js",
+    //   subtitle: "- Samer Buna",
+    //   logo_path: "pluralsight_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/16za14GrABr8xBM8r8hCtag1fO2faZTD8/view",
+    //   alt_name: "Pluralsight.",
+    //   color_code: "#000000",
+    // },
   ],
 };
 
@@ -552,7 +537,6 @@ export {
   techStack,
   sLanguage,
   tools,
-  competitiveSites,
   degrees,
   certifications,
   experience,
